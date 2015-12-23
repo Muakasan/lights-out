@@ -1,7 +1,7 @@
 var lightOn = false;
 $("#lights-on-img").hide();
 
-$("#switch-img").on("touchstart click", function(){
+$("#switch-img").on("pointerup", function(){
     if(lightOn)
     {
         $(this).addClass("rotate180");
